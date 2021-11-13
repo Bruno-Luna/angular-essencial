@@ -1,0 +1,21 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer span{
+    font-size: 1.06rem;
+    font-weight: 400;
+}
+
+.footer span .material-icons{
+    font-size: 1.14rem;
+}
+
+ a{
+     color: hsl(0, 0%, 20%);
+    text-decoration: none;
+}
