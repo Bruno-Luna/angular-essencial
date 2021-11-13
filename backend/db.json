@@ -1,0 +1,15 @@
+{
+    "produto":[{
+        "id": 1,
+        "nome": "Carteira Black",
+        "valor": 99.00
+    },{
+        "id": 2,
+        "nome": "TV 4K OLED",
+        "valor": 7689.00
+    },{
+        "id": 3,
+        "nome": "Roteador 5G",
+        "valor": 476.00
+    }]
+}
