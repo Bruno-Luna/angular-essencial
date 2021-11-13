@@ -11,6 +11,7 @@
 .header span h1{
     color: #fff;
     font-size: 1.6rem;
+    cursor: pointer;
  }
 
  .header span .material-icons{
