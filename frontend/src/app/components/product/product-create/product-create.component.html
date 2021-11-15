@@ -1,6 +1,14 @@
-<h2>Tela de Produtos</h2>
+<mat-card class="mat-elevation-z3">
+    <mat-card-title>Cadastrar Produto</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome:" [(ngModel)]="product.nome" name="nome" size="3rem">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço:" [(ngModel)]="product.valor" name="valor">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="createProduct()" color="primary">Salvar</button>
 
-
-<button mat-raised-button (click)="createProduct()" color="primary">Salvar</button>
-
-<button mat-raised-button (click)="cancel()" color="danger">Cancelar</button>
+    <button mat-raised-button (click)="cancel()" color="danger">Cancelar</button>
+</mat-card>
