@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductCreateComponent implements OnInit {
 
+
+  telefonema = "Alô"
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  fazerAlgo(){
+    console.log('Oláááááá');
+    
+  }
 }
