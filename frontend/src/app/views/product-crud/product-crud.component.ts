@@ -18,4 +18,8 @@ export class ProductCrudComponent implements OnInit {
   newProduct(): void {
      this.route.navigate(['/products/create'])
   }
+
+  readProduct(): void{
+    this.route.navigate(['/products/read'])
+  }
 }
