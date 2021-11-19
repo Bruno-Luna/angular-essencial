@@ -1,0 +1,19 @@
+table{
+    width: 100%;
+}
+
+table thead tr{
+    font-weight: 500;
+}
+table thead tr th, table tbody tr td{
+    border: 1px solid black;
+
+}
+
+table tbody tr td{
+    text-align: center;
+}
+
+table td{
+    margin-bottom: .4rem;
+}
