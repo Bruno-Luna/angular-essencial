@@ -1,24 +1,28 @@
 
-
-
- <!-- border="1" > -->
-    
-
-
-
 <table>
     <thead>
     <tr>
         <th>ID</th>
-        <th>Nome</th>
+        <th>Produto</th>
         <th>Preço</th>
+        <th>Ações</th>
     </tr>
     </thead>
     <tbody *ngFor="let product of products">
     <tr>
         <td>{{ product.id }}</td>
         <td>{{ product.nome }}</td>
-        <td>{{ product.valor }}</td>
+        <td>R$ {{ product.valor }}</td>
+        <td>         
+            <span class="icons"> 
+                <a [routerLink]="">
+                    <i class="material-icons edit">edit</i>
+                </a>
+                <a [routerLink]="">
+                    <i class="material-icons delete">delete</i>
+                </a>
+            </span>
+        </td>
     </tr>
     </tbody>
  </table>

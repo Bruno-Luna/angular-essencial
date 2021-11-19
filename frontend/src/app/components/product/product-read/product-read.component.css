@@ -1,19 +1,42 @@
 table{
     width: 100%;
+    margin-top: 1.2rem;
 }
 
 table thead tr{
-    font-weight: 500;
+    font-size: 1.2rem;
 }
+
 table thead tr th, table tbody tr td{
     border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 1rem;
 
 }
 
 table tbody tr td{
     text-align: center;
+    font-size: 1.14rem;
+
 }
 
 table td{
     margin-bottom: .4rem;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+i.edit{
+    color: #d9cd26;
+}
+
+i.delete{
+    color: #e35e6b;
 }

@@ -1,6 +1,7 @@
 import { ProductService } from './../product.service';
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../product.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-product-read',
@@ -12,7 +13,8 @@ export class ProductReadComponent implements OnInit {
   products: Product[]
 
   constructor(
-    private productService: ProductService
+    private productService: ProductService,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
@@ -23,4 +25,10 @@ export class ProductReadComponent implements OnInit {
     })
   }
 
+  // deleteProduct():void{
+  //   this.productService.delete().subscribe(()=>{
+  //     this.productService.showMessage('Sucesso!!')
+  //     this.router.navigate(['/products'])
+  //   })
+  // }
 }
