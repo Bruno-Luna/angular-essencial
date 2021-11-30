@@ -25,10 +25,4 @@ export class ProductReadComponent implements OnInit {
     })
   }
 
-  // deleteProduct():void{
-  //   this.productService.delete().subscribe(()=>{
-  //     this.productService.showMessage('Sucesso!!')
-  //     this.router.navigate(['/products'])
-  //   })
-  // }
 }

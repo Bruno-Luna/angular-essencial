@@ -12,6 +12,7 @@ import { ProductService } from '../product.service';
 export class ProductCreateComponent implements OnInit {
 
  product: Product = {
+   id: 0,
    nome: '',
    valor: ''
  }

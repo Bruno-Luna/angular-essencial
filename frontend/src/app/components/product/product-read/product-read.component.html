@@ -1,4 +1,3 @@
-
 <table>
     <thead>
     <tr>
@@ -15,10 +14,10 @@
         <td>R$ {{ product.valor }}</td>
         <td>         
             <span class="icons"> 
-                <a [routerLink]="">
+                <a routerLink="/products/update/{{ product.id }}">
                     <i class="material-icons edit">edit</i>
                 </a>
-                <a [routerLink]="">
+                <a routerLink="/products/delete/{{ product.id }}">
                     <i class="material-icons delete">delete</i>
                 </a>
             </span>
