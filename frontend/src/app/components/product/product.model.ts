@@ -1,5 +1,5 @@
-export interface Product{
-    id?: number
-    nome: string
-    valor: string
+export class Product{
+    public id: number
+    public nome: string
+    public valor: string
 }
